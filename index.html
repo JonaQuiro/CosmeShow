@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>🥸Cosme Show🥸</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<section id="pantalla-configuracion">
+    <h1>🥸Cosme Show🥸</h1>
+
+    <div class="config-bloque">
+        <h3>⏱ Tiempo por turno</h3>
+        <label><input type="radio" name="tiempo" value="30"> 30s</label>
+        <label><input type="radio" name="tiempo" value="60" checked> 60s</label>
+        <label><input type="radio" name="tiempo" value="90"> 90s</label>
+    </div>
+
+    <div class="config-bloque">
+        <h3>🔁 Rondas</h3>
+        <select id="select-rondas">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+        </select>
+    </div>
+
+    <div class="config-bloque">
+        <h3>🎮 Modo</h3>
+        <label><input type="radio" name="modo" value="alternadas" checked> Una por equipo</label><br>
+        <label><input type="radio" name="modo" value="seguidas"> Seguidas</label>
+    </div>
+
+    <button id="btn-comenzar" class="btn-primary">Comenzar</button>
+    <button id="btn-reglamento" class="btn-secondary">Reglamento</button>
+</section>
+
+<section id="pantalla-turno">
+    <h2 id="equipo-actual"></h2>
+    <h3 id="ronda-actual"></h3>
+
+    <!-- TIMER -->
+    <div class="timer">
+        <svg width="120" height="120">
+            <circle class="bg" cx="60" cy="60" r="54"></circle>
+            <circle class="progress" cx="60" cy="60" r="54"></circle>
+        </svg>
+        <div id="timer-text" class="timer-text">60</div>
+    </div>
+
+    <!-- PRE TURNO -->
+    <div id="pre-turno" class="pre-turno">
+        <p>Pasá el celular</p>
+        <button id="btn-play" class="btn-play">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 5v14l11-7z"/>
+        </svg>
+</button>
+    </div>
+
+    <!-- CARTA -->
+    <div id="carta" class="carta oculto">
+        <h2 id="palabra-principal"></h2>
+        <ul id="palabras-prohibidas"></ul>
+    </div>
+
+    <!-- ACCIONES -->
+    <div class="acciones">
+        <button id="btn-error" class="btn-no">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/>
+            </svg>
+        </button>
+
+        <button id="btn-cambiar" class="btn-cambiar">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 6V3L8 7l4 4V8c2.76 0 5 2.24 5 5a5 5 0 01-9.9 1H5a7 7 0 0014-1c0-3.87-3.13-7-7-7z"/>
+            </svg>
+        </button>
+
+        <button id="btn-acierto" class="btn-ok">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 16.2l-3.5-3.5L4 14.2 9 19l12-12-1.5-1.5z"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="puntaje">
+        <p>A: <span id="puntos-a">0</span></p>
+        <p>B: <span id="puntos-b">0</span></p>
+    </div>
+</section>
+
+<section id="pantalla-final">
+    <h2 id="ganador"></h2>
+    <p>A: <span id="final-a"></span></p>
+    <p>B: <span id="final-b"></span></p>
+
+    <button id="btn-reiniciar-partida" class="btn-primary">Reiniciar</button>
+    <button id="btn-nueva-partida" class="btn-secondary">Nueva partida</button>
+</section>
+
+<!-- MODAL -->
+<div id="modal-reglamento">
+    <div class="modal-contenido">
+        <h3>Reglamento</h3>
+        <p>No usar palabras prohibidas. Una sola carta cambiada por turno.</p>
+        <button id="btn-cerrar-reglamento">Cerrar</button>
+    </div>
+</div>
+
+<script src="js/cartas.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
