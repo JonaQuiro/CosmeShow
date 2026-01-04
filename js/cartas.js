@@ -1217,5 +1217,1045 @@ const cartas = [
 {
     "palabra": "VOLKSWAGEN",
     "prohibidas": ["auto", "alemán", "Escarabajo", "Golf", "logo VW"]
-}
+},
+    {
+        "palabra": "DULCE DE LECHE",
+        "prohibidas": ["alfajor", "panqueque", "frasco", "cremoso", "postre"]
+    },
+    {
+        "palabra": "ALFALFA",
+        "prohibidas": ["havanna", "chocolate", "galleta", "dulce", "caja"]
+    },
+    {
+        "palabra": "MEDIALUNA",
+        "prohibidas": ["factura", "desayuno", "manteca", "café con leche", "croissant"]
+    },
+    {
+        "palabra": "VIGILANTE",
+        "prohibidas": ["factura", "queso", "dulce", "membrillo", "bolsa"]
+    },
+    {
+        "palabra": "CAÑONCITO",
+        "prohibidas": ["dulce de leche", "factura", "chocolate", "relleno", "docena"]
+    },
+    {
+        "palabra": "TERERÉ",
+        "prohibidas": ["frío", "yerba", "Paraguay", "jugo", "verano"]
+    },
+    {
+        "palabra": "CHIPA",
+        "prohibidas": ["queso", "mandioca", "Paraguay", "horno", "guaraní"]
+    },
+    {
+        "palabra": "TANGO",
+        "prohibidas": ["baile", "bandoneón", "milonga", "Gardel", "pareja"]
+    },
+    {
+        "palabra": "BANDONEÓN",
+        "prohibidas": ["tango", "fuelle", "teclas", "acordeón", "piazzolla"]
+    },
+    {
+        "palabra": "GAUCHITO GIL",
+        "prohibidas": ["rojo", "santo popular", "promesa", "ruta", "capilla"]
+    },
+    {
+        "palabra": "DIFUNTA CORREA",
+        "prohibidas": ["agua", "botella", "san juan", "milagro", "camionero"]
+    },
+    {
+        "palabra": "ROCK NACIONAL",
+        "prohibidas": ["soda stereo", "charly", "spinetta", "patricio rey", "80s"]
+    },
+    {
+        "palabra": "SODA STEREO",
+        "prohibidas": ["cerati", "persiana americana", "de música ligera", "gustavo", "zeta"]
+    },
+    {
+        "palabra": "INDIO SOLARI",
+        "prohibidas": ["ricota", "patricio rey", "ji ji ji", "rojo", "masa"]
+    },
+    {
+        "palabra": "CHARLY GARCÍA",
+        "prohibidas": ["sui generis", "serú girán", "piano", "loco", "say no more"]
+    },
+    {
+        "palabra": "EVITA",
+        "prohibidas": ["eva perón", "fundación", "pelo recogido", "mujeres", "balcón"]
+    },
+    {
+        "palabra": "MALVINAS",
+        "prohibidas": ["islas", "guerra", "1982", "inglesas", "argentinas"]
+    },
+    {
+        "palabra": "NÉSTOR",
+        "prohibidas": ["kirchner", "presidente", "patagonia", "2003", "cristina"]
+    },
+    {
+        "palabra": "CFK",
+        "prohibidas": ["cristina", "cadena nacional", "peronismo", "botox", "vice"]
+    },
+    {
+        "palabra": "MILEI",
+        "prohibidas": ["javier", "león", "motosierra", "libertad", "anarcocapitalismo"]
+    },
+    {
+        "palabra": "MAR DEL PLATA",
+        "prohibidas": ["playa", "verano", "lobos marinos", "teatro", "feliz"]
+    },
+    {
+        "palabra": "BARILOCHE",
+        "prohibidas": ["nieve", "chocolate", "viaje egresados", "cerro catedral", "lago"]
+    },
+    {
+        "palabra": "VIAJE DE EGRESADOS",
+        "prohibidas": ["bariloche", "quinta año", "fiesta", "graduación", "camisetas"]
+    },
+    {
+        "palabra": "QUINTA",
+        "prohibidas": ["fiesta", "pileta", "alquiler", "cumple", "previa"]
+    },
+    {
+        "palabra": "PIQUETE",
+        "prohibidas": ["protesta", "ruta", "goma", "corte", "panamericana"]
+    },
+    {
+        "palabra": "INUNDACIÓN",
+        "prohibidas": ["lluvia", "calle", "caba", "desagüe", "auto flotando"]
+    },
+    {
+        "palabra": "CORTES DE LUZ",
+        "prohibidas": ["edenor", "calor", "vela", "verano", "apagón"]
+    },
+    {
+        "palabra": "VILLA 31",
+        "prohibidas": ["retiro", "barrio", "pobreza", "asentamiento", "ciudad oculta"]
+    },
+    {
+        "palabra": "REGGAETON",
+        "prohibidas": ["perreo", "bad bunny", "daddy yankee", "bailar", "ritmo"]
+    },
+    {
+        "palabra": "CUMBIA 420",
+        "prohibidas": ["pablo lescano", "damas gratis", "pobreza", "plan", "villera"]
+    },
+    {
+        "palabra": "YANQUI",
+        "prohibidas": ["gringo", "eeuu", "imperialismo", "dólar", "norteamericano"]
+    },
+    {
+        "palabra": "CHE",
+        "prohibidas": ["guevara", "revolución", "cuba", "boina", "moto"]
+    },
+    {
+        "palabra": "FENA",
+        "prohibidas": ["feria estudiantes", "uba", "canto", "primavera", "derecho"]
+    },
+    {
+        "palabra": "PROTESTA",
+        "prohibidas": ["calle", "pancarta", "cacerola", "plaza", "reclamo"]
+    },
+    {
+        "palabra": "CACEROLAZO",
+        "prohibidas": ["protesta", "olla", "2001", "balcón", "ruido"]
+    },
+    {
+        "palabra": "CORRALITO",
+        "prohibidas": ["2001", "banco", "dólares", "de la rúa", "crisis"]
+    },
+    {
+        "palabra": "HAVANNA",
+        "prohibidas": ["alfajor", "mar del plata", "chocolate", "caja", "dulce"]
+    },
+    {
+        "palabra": "SUBE",
+        "prohibidas": ["tarjeta", "colectivo", "carga", "saldo", "máquina"]
+    },
+    {
+        "palabra": "RAPIPAGO",
+        "prohibidas": ["pagar", "factura", "fila", "locutorio", "carga"]
+    },
+    {
+        "palabra": "LOCUTORIO",
+        "prohibidas": ["cabina", "teléfono", "internet", "fotocopia", "2000s"]
+    },
+    {
+        "palabra": "CYBERS",
+        "prohibidas": ["internet", "pc", "hora", "juegos", "lan"]
+    },
+    {
+        "palabra": "PHOTOLOG",
+        "prohibidas": ["floggers", "foto", "2008", "pose", "comentarios"]
+    },
+    {
+        "palabra": "MSN",
+        "prohibidas": ["messenger", "nudges", "estado", "winks", "hotmail"]
+    },
+    {
+        "palabra": "POOL",
+        "prohibidas": ["billar", "taco", "bola", "8", "bar"]
+    },
+        {
+        "palabra": "FACTURAS",
+        "prohibidas": ["medialuna", "desayuno", "vigilante", "bolsa", "docena"]
+    },
+    {
+        "palabra": "CAFÉ CON LECHE",
+        "prohibidas": ["taza", "desayuno", "lágrima", "jarrito", "azúcar"]
+    },
+    {
+        "palabra": "LÁGRIMA",
+        "prohibidas": ["café", "leche", "poco", "taza", "desayuno"]
+    },
+    {
+        "palabra": "TORTA FRITA",
+        "prohibidas": ["lluvia", "mate", "grasa", "dulce", "redonda"]
+    },
+    {
+        "palabra": "REVOLUCIÓN DE MAYO",
+        "prohibidas": ["25", "locro", "chocolate", "paraguas", "cabildo"]
+    },
+    {
+        "palabra": "CHOCOLATE CON CHURROS",
+        "prohibidas": ["invierno", "taza", "grueso", "relleno", "costanera"]
+    },
+    {
+        "palabra": "BUDÍN",
+        "prohibidas": ["postre", "pasas", "vainilla", "té", "inglés"]
+    },
+    {
+        "palabra": "FLAN",
+        "prohibidas": ["dulce de leche", "huevo", "caramelo", "postre", "crema"]
+    },
+    {
+        "palabra": "PAN DULCE",
+        "prohibidas": ["navidad", "fruta abrillantada", "chips", "caja", "brindis"]
+    },
+    {
+        "palabra": "TURRÓN",
+        "prohibidas": ["navidad", "mani", "blando", "duro", "mesa dulce"]
+    },
+    {
+        "palabra": "GARRAPINYADA",
+        "prohibidas": ["mani", "azúcar", "parque", "bolsa", "roja"]
+    },
+    {
+        "palabra": "POP CORN",
+        "prohibidas": ["maíz", "cine", "manteca", "salado", "dulce"]
+    },
+    {
+        "palabra": "CABSHA",
+        "prohibidas": ["alfajor", "chocolate", "leche", "negro", "bonafide"]
+    },
+    {
+        "palabra": "BON O BON",
+        "prohibidas": ["alfajor", "chocolate", "blanco", "leche", "arcor"]
+    },
+    {
+        "palabra": "RHODESIA",
+        "prohibidas": ["galleta", "chocolate", "terrabusi", "paquete", "leche"]
+    },
+    {
+        "palabra": "MERENGUE",
+        "prohibidas": ["dulce", "blanco", "azúcar", "torta", "ruso"]
+    },
+    {
+        "palabra": "ROGEL",
+        "prohibidas": ["torta", "merengue", "dulce de leche", "capas", "hojaldre"]
+    },
+    {
+        "palabra": "PASTAFROLA",
+        "prohibidas": ["membrillo", "tarta", "masa", "rejilla", "mate"]
+    },
+    {
+        "palabra": "BIZCOCHUELO",
+        "prohibidas": ["torta", "huevos", "esponjoso", "cumple", "vainilla"]
+    },
+    {
+        "palabra": "CHURRO RELLENO",
+        "prohibidas": ["dulce de leche", "chocolate", "costanera", "grasa", "largo"]
+    },
+    {
+        "palabra": "GRANIZADO",
+        "prohibidas": ["hielo", "jugo", "verano", "vaso", "pajita"]
+    },
+    {
+        "palabra": "LICUADO",
+        "prohibidas": ["banana", "leche", "fruta", "vaso", "desayuno"]
+    },
+    {
+        "palabra": "JUGO DE NARANJA",
+        "prohibidas": ["exprimido", "desayuno", "vaso", "vitamina", "fruta"]
+    },
+    {
+        "palabra": "YERBA PLAYADITO",
+        "prohibidas": ["mate", "misionera", "paquete", "verde", "suave"]
+    },
+    {
+        "palabra": "CBSE",
+        "prohibidas": ["yerba", "hierbas", "mate", "naranja", "boldo"]
+    },
+    {
+        "palabra": "TARAGÜÍ",
+        "prohibidas": ["yerba", "corrientes", "paquete", "roja", "fuerte"]
+    },
+    {
+        "palabra": "TERMOLAR",
+        "prohibidas": ["termo", "mate", "pico", "grande", "plástico"]
+    },
+    {
+        "palabra": "STANLEY",
+        "prohibidas": ["termo", "mate", "verde", "acero", "tapa"]
+    },
+    {
+        "palabra": "PAVA",
+        "prohibidas": ["cocina", "agua", "hervir", "mate", "silbido"]
+    },
+    {
+        "palabra": "MATERA",
+        "prohibidas": ["bolso", "mate", "termo", "yerba", "bombilla"]
+    },
+    {
+        "palabra": "BOMBILLA",
+        "prohibidas": ["mate", "metal", "filtro", "chupar", "limpiar"]
+    },
+    {
+        "palabra": "CEBAR",
+        "prohibidas": ["mate", "agua", "yerba", "ronda", "caliente"]
+    },
+    {
+        "palabra": "AMARGO",
+        "prohibidas": ["mate", "sin azúcar", "tradicional", "yerba", "verde"]
+    },
+    {
+        "palabra": "DULCE",
+        "prohibidas": ["mate", "azúcar", "mucho", "leche", "postre"]
+    },
+    {
+        "palabra": "CANCHA",
+        "prohibidas": ["fútbol", "tribuna", "hinchas", "gol", "estadio"]
+    },
+    {
+        "palabra": "TRIBUNA",
+        "prohibidas": ["cancha", "popular", "platea", "hinchas", "gradas"]
+    },
+    {
+        "palabra": "POPULAR",
+        "prohibidas": ["entrada", "barata", "cancha", "saltar", "hinchada"]
+    },
+    {
+        "palabra": "PLATEA",
+        "prohibidas": ["cancha", "cara", "asiento", "numerado", "vista"]
+    },
+    {
+        "palabra": "BANDERA",
+        "prohibidas": ["cancha", "telón", "hinchada", "gigante", "desplegar"]
+    },
+    {
+        "palabra": "TRAPO",
+        "prohibidas": ["bandera", "cancha", "hinchada", "tela", "colgar"]
+    },
+    {
+        "palabra": "BENGALA",
+        "prohibidas": ["cancha", "fuego", "roja", "hinchada", "prohibida"]
+    },
+    {
+        "palabra": "PAPELITO",
+        "prohibidas": ["cancha", "tirar", "fiesta", "gol", "entrada"]
+    },
+    {
+        "palabra": "SALTO",
+        "prohibidas": ["hinchada", "cancha", "popular", "cantito", "pogo"]
+    },
+    {
+        "palabra": "CLÁSICO",
+        "prohibidas": ["superclásico", "boca", "river", "cancha", "rival"]
+    },
+    {
+        "palabra": "HINCHADA",
+        "prohibidas": ["cancha", "12", "jugador", "barrabrava", "cantar"]
+    },
+    {
+        "palabra": "BARRABRAVA",
+        "prohibidas": ["hinchada", "violencia", "cancha", "trapito", "entrada"]
+    },
+    {
+        "palabra": "TRAPITO",
+        "prohibidas": ["auto", "calle", "cuidar", "plata", "cartel"]
+    },
+    {
+        "palabra": "LIMPIAVIDRIOS",
+        "prohibidas": ["semaforo", "auto", "trapito", "balde", "rojo"]
+    },
+    {
+        "palabra": "CARTONERO",
+        "prohibidas": ["noche", "carro", "reciclar", "bolsa", "calle"]
+    },
+    {
+        "palabra": "VILLEROS",
+        "prohibidas": ["barrio", "cumbia", "pobre", "villa", "plan"]
+    },
+    {
+        "palabra": "CUMBIA VILLERA",
+        "prohibidas": ["420", "pablo lescano", "damás gratis", "teclado", "plan"]
+    },
+        {
+        "palabra": "MATE",
+        "prohibidas": ["yerba", "bombilla", "agua caliente", "cebar", "termo"]
+    },
+    {
+        "palabra": "TERMO",
+        "prohibidas": ["mate", "agua", "caliente", "tapa", "pico"]
+    },
+    {
+        "palabra": "JARRO",
+        "prohibidas": ["té", "café", "asa", "porcelana", "desayuno"]
+    },
+    {
+        "palabra": "TETERA",
+        "prohibidas": ["té", "agua caliente", "pico", "tapa", "silbato"]
+    },
+    {
+        "palabra": "FUENTE",
+        "prohibidas": ["horno", "asado", "pasta", "vidrio", "grande"]
+    },
+    {
+        "palabra": "SARTÉN",
+        "prohibidas": ["huevos", "frito", "mango", "teflón", "aceite"]
+    },
+    {
+        "palabra": "OLLA",
+        "prohibidas": ["guiso", "tapa", "cocinar", "fuego", "grande"]
+    },
+    {
+        "palabra": "CUCHARA",
+        "prohibidas": ["sopa", "comer", "metal", "mango", "postre"]
+    },
+    {
+        "palabra": "TENEDOR",
+        "prohibidas": ["pasta", "carne", "pinchar", "dientes", "cubierto"]
+    },
+    {
+        "palabra": "CUCHILLO",
+        "prohibidas": ["cortar", "carne", "hoja", "mango", "afilado"]
+    },
+    {
+        "palabra": "TABLA",
+        "prohibidas": ["picar", "madera", "cortar", "cebolla", "cocina"]
+    },
+    {
+        "palabra": "ESCURRIDOR",
+        "prohibidas": ["pasta", "lavar", "verdura", "agujeros", "pileta"]
+    },
+    {
+        "palabra": "ESPONJA",
+        "prohibidas": ["lavar", "platos", "espuma", "pileta", "amarilla"]
+    },
+    {
+        "palabra": "TRAPO DE PISO",
+        "prohibidas": ["limpiar", "piso", "agua", "escurrir", "rejilla"]
+    },
+    {
+        "palabra": "ESCoba",
+        "prohibidas": ["barrer", "piso", "palos", "cerdas", "polvo"]
+    },
+    {
+        "palabra": "BALDE",
+        "prohibidas": ["agua", "limpiar", "trapear", "plástico", "asa"]
+    },
+    {
+        "palabra": "LAMPARITA",
+        "prohibidas": ["luz", "rosca", "techo", "foco", "led"]
+    },
+    {
+        "palabra": "VELADOR",
+        "prohibidas": ["mesita", "noche", "luz", "leer", "cama"]
+    },
+    {
+        "palabra": "ABAJUR",
+        "prohibidas": ["lámpara", "tela", "luz", "mesa", "pantalla"]
+    },
+    {
+        "palabra": "CORTINA",
+        "prohibidas": ["ventana", "sol", "tela", "barral", "dormitorio"]
+    },
+    {
+        "palabra": "ALFOMBRA",
+        "prohibidas": ["piso", "living", "suave", "pisar", "grande"]
+    },
+    {
+        "palabra": "CUADRO",
+        "prohibidas": ["pared", "pintura", "colgar", "marco", "decoración"]
+    },
+    {
+        "palabra": "ESPEJO",
+        "prohibidas": ["verse", "pared", "baño", "marco", "reflejo"]
+    },
+    {
+        "palabra": "PERCHERO",
+        "prohibidas": ["abrigo", "entrada", "colgar", "pared", "gancho"]
+    },
+    {
+        "palabra": "SILLÓN",
+        "prohibidas": ["living", "sentarse", "televisor", "grande", "tapizado"]
+    },
+    {
+        "palabra": "MESA RATONA",
+        "prohibidas": ["living", "baja", "revistas", "café", "centro"]
+    },
+    {
+        "palabra": "BIBLIOTECA",
+        "prohibidas": ["libros", "pared", "estantes", "madera", "living"]
+    },
+    {
+        "palabra": "ALMOHADA",
+        "prohibidas": ["cama", "dormir", "cabeza", "plumas", "funda"]
+    },
+    {
+        "palabra": "SÁBANA",
+        "prohibidas": ["cama", "dormir", "baja", "encimera", "algodón"]
+    },
+    {
+        "palabra": "ACOLCHADO",
+        "prohibidas": ["cama", "invierno", "grueso", "abrigo", "doble"]
+    },
+    {
+        "palabra": "TOALLA",
+        "prohibidas": ["baño", "secarse", "ducha", "algodón", "grande"]
+    },
+    {
+        "palabra": "JABÓN",
+        "prohibidas": ["lavarse", "manos", "baño", "espuma", "aroma"]
+    },
+    {
+        "palabra": "CEPILLO DE DIENTES",
+        "prohibidas": ["dientes", "pasta", "boca", "lavar", "cerdas"]
+    },
+    {
+        "palabra": "PASTA DENTAL",
+        "prohibidas": ["dientes", "cepillo", "blanca", "tubo", "menta"]
+    },
+    {
+        "palabra": "SHAMPOO",
+        "prohibidas": ["pelo", "ducha", "lavar", "botella", "espuma"]
+    },
+    {
+        "palabra": "ACONDICIONADOR",
+        "prohibidas": ["pelo", "shampoo", "suavizar", "enjuague", "crema"]
+    },
+    {
+        "palabra": "MAQUINA DE AFEITAR",
+        "prohibidas": ["barba", "cara", "eléctrica", "cuchilla", "hombre"]
+    },
+    {
+        "palabra": "PEINE",
+        "prohibidas": ["pelo", "peinarse", "dientes", "plástico", "bolso"]
+    },
+    {
+        "palabra": "BROCHES",
+        "prohibidas": ["ropa", "tender", "pinza", "cuerda", "plástico"]
+    },
+    {
+        "palabra": "TENDEDERO",
+        "prohibidas": ["ropa", "secar", "balcón", "cuerda", "plegable"]
+    },
+    {
+        "palabra": "PLANCHA",
+        "prohibidas": ["ropa", "arrugas", "calor", "tabla", "vapor"]
+    },
+    {
+        "palabra": "TABLA DE PLANCHAR",
+        "prohibidas": ["plancha", "ropa", "patas", "funda", "cocina"]
+    },
+    {
+        "palabra": "CANASTA DE ROPA SUCIA",
+        "prohibidas": ["baño", "ropa", "tapa", "plástico", "sucio"]
+    },
+    {
+        "palabra": "LLAVERO",
+        "prohibidas": ["llaves", "colgar", "metal", "casa", "auto"]
+    },
+    {
+        "palabra": "BILLETERA",
+        "prohibidas": ["plata", "documento", "tarjetas", "cuero", "bolsillo"]
+    },
+    {
+        "palabra": "MOCHILA",
+        "prohibidas": ["colegio", "libros", "espalda", "cierre", "facultad"]
+    },
+    {
+        "palabra": "CARTUCHERA",
+        "prohibidas": ["lápices", "colegio", "cierre", "lapiceras", "bolsillo"]
+    },
+    {
+        "palabra": "GOMA DE BORRAR",
+        "prohibidas": ["lápiz", "borrar", "blanca", "errores", "colegio"]
+    },
+    {
+        "palabra": "SACAPUNTAS",
+        "prohibidas": ["lápiz", "afilado", "viruta", "agujero", "plástico"]
+    },
+    {
+        "palabra": "REGLA",
+        "prohibidas": ["dibujar", "línea recta", "cm", "plástico", "30 cm"]
+    },
+    {
+        "palabra": "COMPÁS",
+        "prohibidas": ["círculo", "dibujo técnico", "punta", "lápiz", "metal"]
+    },
+        {
+        "palabra": "ASADO",
+        "prohibidas": ["parrilla", "carne", "fuego", "domingo", "amigos"]
+    },
+    {
+        "palabra": "PICADA",
+        "prohibidas": ["queso", "fiambre", "vino", "tabla", "aceitunas"]
+    },
+    {
+        "palabra": "MATE",
+        "prohibidas": ["yerba", "bombilla", "agua caliente", "cebar", "ronda"]
+    },
+    {
+        "palabra": "FACTURAS",
+        "prohibidas": ["desayuno", "café con leche", "medialuna", "docena", "bolsa"]
+    },
+    {
+        "palabra": "MILANESA",
+        "prohibidas": ["carne", "rebosada", "frita", "pure", "limón"]
+    },
+    {
+        "palabra": "PIZZA",
+        "prohibidas": ["queso", "horno", "masa", "delivery", "grande"]
+    },
+    {
+        "palabra": "EMPANADAS",
+        "prohibidas": ["masa", "horno", "fritas", "carne", "docena"]
+    },
+    {
+        "palabra": "LOCRO",
+        "prohibidas": ["guiso", "maíz", "zapallo", "invierno", "fiesta"]
+    },
+    {
+        "palabra": "TANGO",
+        "prohibidas": ["baile", "música", "pareja", "bandoneón", "milonga"]
+    },
+    {
+        "palabra": "COLECTIVO",
+        "prohibidas": ["bondi", "parada", "boleto", "chofer", "asiento"]
+    },
+    {
+        "palabra": "SUBTE",
+        "prohibidas": ["tren", "boleto", "línea", "andén", "molinete"]
+    },
+    {
+        "palabra": "REMIS",
+        "prohibidas": ["auto", "chofer", "llamar", "viaje", "agencia"]
+    },
+    {
+        "palabra": "TAXI",
+        "prohibidas": ["auto", "parar", "chofer", "viaje", "bandera"]
+    },
+    {
+        "palabra": "TRÁFICO",
+        "prohibidas": ["autos", "calle", "embotellamiento", "bocina", "demora"]
+    },
+    {
+        "palabra": "LLUVIA",
+        "prohibidas": ["agua", "paraguas", "inundación", "calle", "verano"]
+    },
+    {
+        "palabra": "CALOR",
+        "prohibidas": ["verano", "sudar", "aire acondicionado", "ventilador", "playa"]
+    },
+    {
+        "palabra": "FRÍO",
+        "prohibidas": ["invierno", "abrigo", "frazada", "mate", "sopa"]
+    },
+    {
+        "palabra": "CUMBIA",
+        "prohibidas": ["baile", "música", "fiesta", "teclado", "ritmo"]
+    },
+    {
+        "palabra": "ROCK",
+        "prohibidas": ["guitarra", "batería", "concierto", "banda", "eléctrica"]
+    },
+    {
+        "palabra": "FIESTA",
+        "prohibidas": ["música", "baile", "birra", "amigos", "noche"]
+    },
+    {
+        "palabra": "PREVIA",
+        "prohibidas": ["casa", "birra", "música", "amigos", "salir"]
+    },
+    {
+        "palabra": "BIRRA",
+        "prohibidas": ["cerveza", "fría", "vaso", "porrón", "fiesta"]
+    },
+    {
+        "palabra": "VINO",
+        "prohibidas": ["tinto", "copa", "brindis", "picada", "botella"]
+    },
+    {
+        "palabra": "CAFÉ",
+        "prohibidas": ["taza", "desayuno", "negro", "con leche", "bar"]
+    },
+    {
+        "palabra": "BAR",
+        "prohibidas": ["trago", "birra", "picada", "amigos", "noche"]
+    },
+    {
+        "palabra": "PLAYA",
+        "prohibidas": ["arena", "mar", "sol", "verano", "reposera"]
+    },
+    {
+        "palabra": "PILETA",
+        "prohibidas": ["agua", "verano", "nadar", "cloro", "flotador"]
+    },
+    {
+        "palabra": "PARQUE",
+        "prohibidas": ["árboles", "caminar", "mate", "chicos", "banco"]
+    },
+    {
+        "palabra": "PLAZA",
+        "prohibidas": ["banco", "palomas", "chicos", "árboles", "fuente"]
+    },
+    {
+        "palabra": "FERIA",
+        "prohibidas": ["puesto", "comida", "artesanía", "gente", "fin de semana"]
+    },
+    {
+        "palabra": "MERCADO",
+        "prohibidas": ["verdura", "carne", "comprar", "bolsa", "puesto"]
+    },
+    {
+        "palabra": "SUPERMERCADO",
+        "prohibidas": ["changuito", "caja", "compras", "fila", "oferta"]
+    },
+    {
+        "palabra": "KIOSCO",
+        "prohibidas": ["golosinas", "cigarrillos", "diario", "carga", "esquina"]
+    },
+    {
+        "palabra": "PANADERÍA",
+        "prohibidas": ["pan", "facturas", "medialuna", "olor", "bolsa"]
+    },
+    {
+        "palabra": "CARNICERÍA",
+        "prohibidas": ["carne", "mostrador", "kg", "milanesa", "asado"]
+    },
+    {
+        "palabra": "VERDULERÍA",
+        "prohibidas": ["fruta", "verdura", "bolsa", "kilo", "fresco"]
+    },
+    {
+        "palabra": "HELADERÍA",
+        "prohibidas": ["cucurucho", "kilo", "sabor", "verano", "postre"]
+    },
+    {
+        "palabra": "FARMACIA",
+        "prohibidas": ["remedio", "perfume", "turno", "mostrador", "receta"]
+    },
+    {
+        "palabra": "BANCO",
+        "prohibidas": ["fila", "plata", "cajero", "extracción", "turno"]
+    },
+    {
+        "palabra": "CORREO",
+        "prohibidas": ["carta", "paquete", "sello", "fila", "enviar"]
+    },
+    {
+        "palabra": "ESCUELA",
+        "prohibidas": ["chicos", "aula", "recreo", "timbre", "maestra"]
+    },
+    {
+        "palabra": "COLEGIO",
+        "prohibidas": ["uniforme", "curso", "examen", "amigos", "recreo"]
+    },
+    {
+        "palabra": "FACULTAD",
+        "prohibidas": ["apuntes", "parcial", "aula", "profesor", "materia"]
+    },
+    {
+        "palabra": "OFICINA",
+        "prohibidas": ["escritorio", "computadora", "jefe", "reunión", "horario"]
+    },
+    {
+        "palabra": "HOSPITAL",
+        "prohibidas": ["médico", "guardia", "camilla", "enfermera", "espera"]
+    },
+    {
+        "palabra": "CINE",
+        "prohibidas": ["película", "pochoclo", "butaca", "pantalla", "entrada"]
+    },
+    {
+        "palabra": "TEATRO",
+        "prohibidas": ["obra", "escenario", "entrada", "butaca", "aplauso"]
+    },
+    {
+        "palabra": "CONCIERTO",
+        "prohibidas": ["música", "banda", "entrada", "público", "escenario"]
+    },
+    {
+        "palabra": "CUMPLEAÑOS",
+        "prohibidas": ["torta", "velas", "regalo", "feliz", "cantar"]
+    },
+    {
+        "palabra": "NAVIDAD",
+        "prohibidas": ["árbol", "regalo", "cena", "brindis", "papá noel"]
+    },
+    {
+        "palabra": "AÑO NUEVO",
+        "prohibidas": ["brindis", "fuegos artificiales", "12 uvas", "abrazo", "medianoche"]
+    },
+    {
+        "palabra": "VACACIONES",
+        "prohibidas": ["viaje", "playa", "descanso", "valija", "verano"]
+    },
+    {
+        "palabra": "FIN DE SEMANA",
+        "prohibidas": ["descanso", "salir", "dormir", "asado", "familia"]
+    },
+    {
+        "palabra": "DOMINGO",
+        "prohibidas": ["asado", "familia", "fiaca", "sobremesa", "descanso"]
+    },
+    {
+        "palabra": "LABURO",
+        "prohibidas": ["trabajo", "oficina", "jefe", "horario", "lunes"]
+    },
+    {
+        "palabra": "FIACA",
+        "prohibidas": ["pereza", "cama", "domingo", "vago", "no ganas"]
+    },
+    {
+        "palabra": "TRANQUILO",
+        "prohibidas": ["calma", "paz", "relax", "mate", "parque"]
+    },
+        {
+        "palabra": "ASADO",
+        "prohibidas": ["parrilla", "carne", "fuego", "domingo", "amigos"]
+    },
+    {
+        "palabra": "PICADA",
+        "prohibidas": ["queso", "fiambre", "vino", "tabla", "aceitunas"]
+    },
+    {
+        "palabra": "MATE",
+        "prohibidas": ["yerba", "bombilla", "agua caliente", "cebar", "ronda"]
+    },
+    {
+        "palabra": "FACTURAS",
+        "prohibidas": ["desayuno", "café con leche", "medialuna", "docena", "bolsa"]
+    },
+    {
+        "palabra": "MILANESA",
+        "prohibidas": ["carne", "rebosada", "frita", "pure", "limón"]
+    },
+    {
+        "palabra": "PIZZA",
+        "prohibidas": ["queso", "horno", "masa", "delivery", "grande"]
+    },
+    {
+        "palabra": "EMPANADAS",
+        "prohibidas": ["masa", "horno", "fritas", "carne", "docena"]
+    },
+    {
+        "palabra": "LOCRO",
+        "prohibidas": ["guiso", "maíz", "zapallo", "invierno", "fiesta"]
+    },
+    {
+        "palabra": "TANGO",
+        "prohibidas": ["baile", "música", "pareja", "bandoneón", "milonga"]
+    },
+    {
+        "palabra": "COLECTIVO",
+        "prohibidas": ["bondi", "parada", "boleto", "chofer", "asiento"]
+    },
+    {
+        "palabra": "SUBTE",
+        "prohibidas": ["tren", "boleto", "línea", "andén", "molinete"]
+    },
+    {
+        "palabra": "REMIS",
+        "prohibidas": ["auto", "chofer", "llamar", "viaje", "agencia"]
+    },
+    {
+        "palabra": "TAXI",
+        "prohibidas": ["auto", "parar", "chofer", "viaje", "bandera"]
+    },
+    {
+        "palabra": "TRÁFICO",
+        "prohibidas": ["autos", "calle", "embotellamiento", "bocina", "demora"]
+    },
+    {
+        "palabra": "LLUVIA",
+        "prohibidas": ["agua", "paraguas", "inundación", "calle", "verano"]
+    },
+    {
+        "palabra": "CALOR",
+        "prohibidas": ["verano", "sudar", "aire acondicionado", "ventilador", "playa"]
+    },
+    {
+        "palabra": "FRÍO",
+        "prohibidas": ["invierno", "abrigo", "frazada", "mate", "sopa"]
+    },
+    {
+        "palabra": "CUMBIA",
+        "prohibidas": ["baile", "música", "fiesta", "teclado", "ritmo"]
+    },
+    {
+        "palabra": "ROCK",
+        "prohibidas": ["guitarra", "batería", "concierto", "banda", "eléctrica"]
+    },
+    {
+        "palabra": "FIESTA",
+        "prohibidas": ["música", "baile", "birra", "amigos", "noche"]
+    },
+    {
+        "palabra": "PREVIA",
+        "prohibidas": ["casa", "birra", "música", "amigos", "salir"]
+    },
+    {
+        "palabra": "BIRRA",
+        "prohibidas": ["cerveza", "fría", "vaso", "porrón", "fiesta"]
+    },
+    {
+        "palabra": "VINO",
+        "prohibidas": ["tinto", "copa", "brindis", "picada", "botella"]
+    },
+    {
+        "palabra": "CAFÉ",
+        "prohibidas": ["taza", "desayuno", "negro", "con leche", "bar"]
+    },
+    {
+        "palabra": "BAR",
+        "prohibidas": ["trago", "birra", "picada", "amigos", "noche"]
+    },
+    {
+        "palabra": "PLAYA",
+        "prohibidas": ["arena", "mar", "sol", "verano", "reposera"]
+    },
+    {
+        "palabra": "PILETA",
+        "prohibidas": ["agua", "verano", "nadar", "cloro", "flotador"]
+    },
+    {
+        "palabra": "PARQUE",
+        "prohibidas": ["árboles", "caminar", "mate", "chicos", "banco"]
+    },
+    {
+        "palabra": "PLAZA",
+        "prohibidas": ["banco", "palomas", "chicos", "árboles", "fuente"]
+    },
+    {
+        "palabra": "FERIA",
+        "prohibidas": ["puesto", "comida", "artesanía", "gente", "fin de semana"]
+    },
+    {
+        "palabra": "MERCADO",
+        "prohibidas": ["verdura", "carne", "comprar", "bolsa", "puesto"]
+    },
+    {
+        "palabra": "SUPERMERCADO",
+        "prohibidas": ["changuito", "caja", "compras", "fila", "oferta"]
+    },
+    {
+        "palabra": "KIOSCO",
+        "prohibidas": ["golosinas", "cigarrillos", "diario", "carga", "esquina"]
+    },
+    {
+        "palabra": "PANADERÍA",
+        "prohibidas": ["pan", "facturas", "medialuna", "olor", "bolsa"]
+    },
+    {
+        "palabra": "CARNICERÍA",
+        "prohibidas": ["carne", "mostrador", "kg", "milanesa", "asado"]
+    },
+    {
+        "palabra": "VERDULERÍA",
+        "prohibidas": ["fruta", "verdura", "bolsa", "kilo", "fresco"]
+    },
+    {
+        "palabra": "HELADERÍA",
+        "prohibidas": ["cucurucho", "kilo", "sabor", "verano", "postre"]
+    },
+    {
+        "palabra": "FARMACIA",
+        "prohibidas": ["remedio", "perfume", "turno", "mostrador", "receta"]
+    },
+    {
+        "palabra": "BANCO",
+        "prohibidas": ["fila", "plata", "cajero", "extracción", "turno"]
+    },
+    {
+        "palabra": "CORREO",
+        "prohibidas": ["carta", "paquete", "sello", "fila", "enviar"]
+    },
+    {
+        "palabra": "ESCUELA",
+        "prohibidas": ["chicos", "aula", "recreo", "timbre", "maestra"]
+    },
+    {
+        "palabra": "COLEGIO",
+        "prohibidas": ["uniforme", "curso", "examen", "amigos", "recreo"]
+    },
+    {
+        "palabra": "FACULTAD",
+        "prohibidas": ["apuntes", "parcial", "aula", "profesor", "materia"]
+    },
+    {
+        "palabra": "OFICINA",
+        "prohibidas": ["escritorio", "computadora", "jefe", "reunión", "horario"]
+    },
+    {
+        "palabra": "HOSPITAL",
+        "prohibidas": ["médico", "guardia", "camilla", "enfermera", "espera"]
+    },
+    {
+        "palabra": "CINE",
+        "prohibidas": ["película", "pochoclo", "butaca", "pantalla", "entrada"]
+    },
+    {
+        "palabra": "TEATRO",
+        "prohibidas": ["obra", "escenario", "entrada", "butaca", "aplauso"]
+    },
+    {
+        "palabra": "CONCIERTO",
+        "prohibidas": ["música", "banda", "entrada", "público", "escenario"]
+    },
+    {
+        "palabra": "CUMPLEAÑOS",
+        "prohibidas": ["torta", "velas", "regalo", "feliz", "cantar"]
+    },
+    {
+        "palabra": "NAVIDAD",
+        "prohibidas": ["árbol", "regalo", "cena", "brindis", "papá noel"]
+    },
+    {
+        "palabra": "AÑO NUEVO",
+        "prohibidas": ["brindis", "fuegos artificiales", "12 uvas", "abrazo", "medianoche"]
+    },
+    {
+        "palabra": "VACACIONES",
+        "prohibidas": ["viaje", "playa", "descanso", "valija", "verano"]
+    },
+    {
+        "palabra": "FIN DE SEMANA",
+        "prohibidas": ["descanso", "salir", "dormir", "asado", "familia"]
+    },
+    {
+        "palabra": "DOMINGO",
+        "prohibidas": ["asado", "familia", "fiaca", "sobremesa", "descanso"]
+    },
+    {
+        "palabra": "LABURO",
+        "prohibidas": ["trabajo", "oficina", "jefe", "horario", "lunes"]
+    },
+    {
+        "palabra": "FIACA",
+        "prohibidas": ["pereza", "cama", "domingo", "vago", "no ganas"]
+    },
+    {
+        "palabra": "TRANQUILO",
+        "prohibidas": ["calma", "paz", "relax", "mate", "parque"]
+    }
 ];

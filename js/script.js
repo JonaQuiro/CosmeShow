@@ -20,10 +20,12 @@ const preTurnoDiv = document.getElementById("pre-turno");
 const timerText = document.getElementById("timer-text");
 const timerCircle = document.querySelector(".progress");
 
+/* ====== CONFIG ====== */
 let tiempoTurno = 60;
 let rondasPorEquipo = 5;
 let modoRondas = "alternadas";
 
+/* ====== ESTADO ====== */
 let equipoActual = 0;
 let rondaA = 1;
 let rondaB = 1;
@@ -35,6 +37,11 @@ let tiempo;
 let esperandoPlay = true;
 let turnoActivo = false;
 let cambioUsado = false;
+
+/* ====== MUERTE SÚBITA ====== */
+let enMuerteSubita = false;
+let turnoResultado = null;
+let resultadoMS = { A: null, B: null };
 
 /* ====== MAZO ====== */
 let mazo = [];
@@ -69,6 +76,7 @@ function iniciarTurno() {
 
     esperandoPlay = true;
     turnoActivo = false;
+    turnoResultado = null;
 
     cartaDiv.classList.add("oculto");
     preTurnoDiv.style.display = "block";
@@ -137,18 +145,22 @@ function nuevaCarta() {
 /* ====== UI ====== */
 function actualizarUI() {
     equipoTxt.textContent = `Equipo ${equipoActual === 0 ? "A" : "B"}`;
-    rondaTxt.textContent = `Ronda ${equipoActual === 0 ? rondaA : rondaB} / ${rondasPorEquipo}`;
+    rondaTxt.textContent = enMuerteSubita
+        ? "⚔️ Muerte súbita"
+        : `Ronda ${equipoActual === 0 ? rondaA : rondaB} / ${rondasPorEquipo}`;
 }
 
 /* ====== PUNTOS ====== */
 function sumar() {
     if (!turnoActivo) return;
+    turnoResultado = true;
     equipoActual === 0 ? puntosA++ : puntosB++;
     avanzar();
 }
 
 function penalizar() {
     if (!turnoActivo) return;
+    turnoResultado = false;
     equipoActual === 0 ? puntosA-- : puntosB--;
     avanzar();
 }
@@ -158,6 +170,36 @@ function avanzar() {
     clearInterval(tiempo);
     turnoActivo = false;
 
+    /* ===== MUERTE SÚBITA ===== */
+    if (enMuerteSubita) {
+        const eq = equipoActual === 0 ? "A" : "B";
+        resultadoMS[eq] = turnoResultado;
+
+        if (resultadoMS.A !== null && resultadoMS.B !== null) {
+
+            if (resultadoMS.A && !resultadoMS.B) {
+                puntosA++;
+                return finalizar();
+            }
+
+            if (!resultadoMS.A && resultadoMS.B) {
+                puntosB++;
+                return finalizar();
+            }
+
+            // empate → sigue mata-mata
+            resultadoMS.A = null;
+            resultadoMS.B = null;
+            equipoActual = 0;
+        } else {
+            equipoActual = equipoActual === 0 ? 1 : 0;
+        }
+
+        iniciarTurno();
+        return;
+    }
+
+    /* ===== JUEGO NORMAL ===== */
     puntosATxt.textContent = puntosA;
     puntosBTxt.textContent = puntosB;
 
@@ -180,6 +222,19 @@ function avanzar() {
 
 /* ====== FINAL ====== */
 function finalizar() {
+
+    if (!enMuerteSubita && puntosA === puntosB) {
+        alert("⚔️ Empate! Muerte súbita ⚔️");
+
+        enMuerteSubita = true;
+        resultadoMS.A = null;
+        resultadoMS.B = null;
+        equipoActual = 0;
+
+        iniciarTurno();
+        return;
+    }
+
     pantallaTurno.style.display = "none";
     pantallaFinal.style.display = "block";
 
@@ -202,28 +257,10 @@ btnCambiar.onclick = () => {
 
 document.getElementById("btn-nueva-partida").onclick = () => location.reload();
 
-document.getElementById("btn-reiniciar-partida").onclick = () => {
-    puntosA = puntosB = 0;
-    rondaA = rondaB = 1;
-    equipoActual = 0;
-    puntosATxt.textContent = 0;
-    puntosBTxt.textContent = 0;
-    pantallaFinal.style.display = "none";
-    pantallaTurno.style.display = "block";
-    mezclarCartas();
-    iniciarTurno();
-};
-
 /* ====== REGLAMENTO ====== */
 const modalReglamento = document.getElementById("modal-reglamento");
-
-document.getElementById("btn-reglamento").onclick = () => {
-    modalReglamento.style.display = "block";
-};
-
-document.getElementById("btn-cerrar-reglamento").onclick = () => {
-    modalReglamento.style.display = "none";
-};
+document.getElementById("btn-reglamento").onclick = () => modalReglamento.style.display = "block";
+document.getElementById("btn-cerrar-reglamento").onclick = () => modalReglamento.style.display = "none";
 
 /* ====== SERVICE WORKER ====== */
 if ("serviceWorker" in navigator) {
@@ -234,3 +271,4 @@ if ("serviceWorker" in navigator) {
             .catch(err => console.error("SW error", err));
     });
 }
+
